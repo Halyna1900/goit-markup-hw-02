@@ -34,17 +34,15 @@ body {
     letter-spacing: 0.02em;
 }
 .list-item:hover,
-.list-item:focus {
+.list-item:focus,
+.menu-contactinfo:hover,
+.menu-contactinfo:focus  {
     color: #404bbf;
 }
 .menu-contactinfo {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-}
-.menu-contactinfo:hover,
-.menu-contactinfo:focus {
-    color: #404bbf;
 }
 
 /* ============== /HEADER STYLES ============== */
