@@ -11,7 +11,7 @@ button {
 }
 body {
     font-family: "Roboto", sans-serif;
-    color: #2e2f42;
+    color: #434455;
     background: #ffffff;
 }
 /* ============== /COMMON STYLES ============== */
@@ -24,25 +24,29 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    color: #4d5ae5
 }
 .text-part {
-    color: #4d5ae5;
+    color: #2e2f42;;
 }
 .list-item {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 .list-item:hover,
 .list-item:focus,
 .menu-contactinfo:hover,
-.menu-contactinfo:focus  {
+.menu-contactinfo:focus {
     color: #404bbf;
 }
 .menu-contactinfo {
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+}
+.contactinfo {
+    font-style: normal
 }
 
 /* ============== /HEADER STYLES ============== */
@@ -60,7 +64,6 @@ body {
     color: #ffffff;
 }
 .button {
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background: #4d5ae5;
 }
 .button-text {
@@ -83,17 +86,18 @@ body {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
+    color: #2e2f42;
 }
 .feature-item-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 .feature-item-text {
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
 }
 /* ============== /FEATURE STYLES ============== */
 
@@ -111,6 +115,8 @@ body {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
+    text-transform: capitalize;
+    color: #2e2f42;
 }
 .team-item-title {
     font-weight: 500;
@@ -118,12 +124,12 @@ body {
     line-height: 1.2;
     letter-spacing: 0.02em;
     text-align: center;
+    color: #2e2f42;
 }
 .team-item-text {
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center;
-    color: #434455;
 }
 /* ============== /OUR TEAM STYLES ============== */
 
@@ -134,17 +140,18 @@ body {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
+    color: #2e2f42;
 }
 .portfolio-item-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 .portfolio-item-text {
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
 }
 /* ============== /PORTFOLIO  STYLES ============== */
 
@@ -164,6 +171,9 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    color: #4d5ae5;
+}
+.text-part-footer {
     color: #f4f4fd;
 }
 /* ============== /FOOTER STYLES ============== */
