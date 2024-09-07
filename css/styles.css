@@ -35,10 +35,10 @@ body {
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
-.list-item:hover,
-.list-item:focus,
-.menu-contactinfo:hover,
-.menu-contactinfo:focus {
+.list-link:hover,
+.list-link:focus,
+.menu-link:hover,
+.menu-link:focus {
     color: #404bbf;
 }
 .menu-contactinfo {
